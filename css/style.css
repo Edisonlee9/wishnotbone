@@ -369,6 +369,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .project .container .btns .btn {
   font-size: 16px;
   line-height: 24px;
@@ -377,7 +378,57 @@ body {
   border-radius: 14px;
   transition: 0.2s;
 }
+
 .project .container .btns .btn:hover {
   color: var(--white);
   background: var(--dark);
 }
+
+.project .container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  gap: 16px;
+}
+
+.team {}
+
+.team .container {}
+
+.team .container .left {}
+
+.team .container .left .title {
+  font-size: 32px;
+  line-height: 38px;
+  color: var(--grey);
+  font-weight: 400;
+}
+
+.team .container .left .text {
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--grey);
+  max-width: 358px;
+  margin: 15px 0 30px;
+}
+
+.team .container .left .btn {
+  padding: 11px 20px;
+  font-size: 16px;
+  color: var(--dark);
+  border-radius: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  transition: 0.2s;
+}
+
+.team .container .left .btn:hover {
+  background: var(--dark);
+  color: var(--white);
+}
+
+
+.team .container .right {}

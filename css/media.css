@@ -49,6 +49,7 @@
   .firm .container {
     gap: 80px;
   }
+
 }
 
 /* 770px */
@@ -83,6 +84,19 @@
   .house {
     padding: 150px 0;
   }
+
+  .project .container .title {
+    font-size: 30px;
+  }
+
+  .project .container .text {
+    font-size: 18px;
+  }
+
+  .project .container .wrapper .card {
+    width: 280px;
+    height: 370px;
+  }
 }
 
 /* 525px */
@@ -92,13 +106,13 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../images/house-bg.png) no-repeat center / cover;
   }
-  
+
   .staircase {
     padding: 100px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(../images/staircase-bg.png) no-repeat center / cover;
   }
-  
+
   .swirling {
     padding: 100px 0;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -113,6 +127,34 @@
   .house .container .text p {
     color: white;
   }
+
+  .project,
+  .firm {
+    padding: 30px 0;
+  }
+
+  .project .container {
+    text-align: center;
+  }
+
+  .project .container .wrapper .card {
+    width: 250px;
+    height: 330px;
+  }
+
+  .project .container .wrapper .card .effect {
+    padding: 20px;
+  }
+
+  .project .container .wrapper .card .effect p {
+    font-size: 12px;
+  }
+
+
+  .project .container .wrapper .card .effect h3 {
+    font-size: 16px;
+  }
+
 }
 
 /* 430px */
